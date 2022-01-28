@@ -68,6 +68,37 @@ h1, h2, h3, h4, h5 {
 section, footer{
     padding:4% 0;
 }
+header{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header img{
+    width: 20%;
+    margin-left: 8%;
+}
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+.links{
+    width: 60%;
+    font-size: 2.2rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: stretch;
+    margin: 0 0 0 8%;
+}
+.links a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding: 5%;
+}
 .container {
     width: 80%;
     margin: 0 auto;
@@ -105,19 +136,56 @@ section, footer{
     justify-content: space-between;
 }
 
-.middle-content .boxes .box {
-    background: black;
+.boxes{
     margin: 4% 0;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
+.align{
+    padding: 5%;
+    width: 15%;
+    margin: 0 5% 5% 0;
+    text-align: center;
+}
+.box1{
+    background-color: teal;
+}
+.box2{
+    background-color: gold;
+} 
+.box3{
+    background-color: cadetblue;
+}
+.box4{
+    background-color: coral;
+}
+.box5{
+    background-color: crimson;
+}
+.box6{
+    background-color: forestgreen;
+}
+.box7{
+    background-color: darkorchid;
+}
+.box8{
+    background-color: hotpink;
+}
+.box9{
+    background-color: indigo;
+}
+.box10{
+    background-color: dodgerblue;
+}
 /*Bottom Section Styles*/
 .bottom-content {
     display: flex;
     justify-content: space-between;
+    border-top: 2px solid #ff4b00;
 }
 
 .bottom-content .text-container {
@@ -132,6 +200,16 @@ section, footer{
 footer {
     width: 100%;
     background-color: #ff4b00;
+    text-align: center;
+}
+footer nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+footer a {
+    text-decoration: none;
+    color: white;
 }
 
 /*About Page Styles*/
